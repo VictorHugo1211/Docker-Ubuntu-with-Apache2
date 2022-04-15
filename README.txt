@@ -11,7 +11,7 @@ To run our Dockerfile, just run the command:
 docker build -t REPOSITORY_NAME .
 
 After build the image, you can run the command to create our container:
-docker run -dit --name CONTAINER_NAME -p LOCAL_PORT: CONTAINER_PORT REPOSITORY_NAME
+docker run -dit --name CONTAINER_NAME -p LOCAL_PORT:CONTAINER_PORT REPOSITORY_NAME
 
 Now you have your container running! That's were easy!
 
